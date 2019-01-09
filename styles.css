@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  background-image: url("Images/Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ul {
+  list-style: none;
+}
