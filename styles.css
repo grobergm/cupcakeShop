@@ -49,3 +49,9 @@ p {
   background-color: rgba(255,200,255,0.75);
   float:left;
 }
+
+@media screen and (max-width:800px){
+  body{
+    background-size:auto;
+  }
+}
