@@ -11,11 +11,8 @@ ul {
 
 .text{
   background-color: rgba(255,200,255,0.75);
-  padding-top:40px;
-  padding-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top:40px
+  margin: 40px;
+  border: 10px solid white;
 }
 
 a{
