@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $(".review").slideDown(4000);
+  $(".review").click(function(){
+    $(this).fadeToggle("slow");
+  });
+  $("#listen").click(function(){
+    $(".review").fadeIn("slow");
+  })
+})

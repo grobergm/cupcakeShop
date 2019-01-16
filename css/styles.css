@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: url("Images/Background.jpg");
+  background-image: url("../Images/Background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11,7 +11,6 @@ ul {
 
 .text{
   background-color: rgba(255,200,255,0.75);
-  margin: 40px;
   border: 10px solid white;
 }
 
@@ -44,10 +43,17 @@ p {
   float:left;
 }
 .review{
-  padding-top: 40px;
+  display:none;
+  border:10px solid white;
+  padding: 40px;
+  margin: 40px;
   width: 400px;
   background-color: rgba(255,200,255,0.75);
-  float:left;
+  float: left;
+}
+
+.container{
+  height:2000px;
 }
 
 @media screen and (max-width:800px){
